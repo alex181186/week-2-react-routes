@@ -9,7 +9,7 @@ const DashboardProfile = () => {
       <div id="title">
         Profile
       </div>
-      <div id="user">
+      <div id="username">
         This is component {user}
       </div>
       <Link to="/dashboard">Go To Root</Link>
