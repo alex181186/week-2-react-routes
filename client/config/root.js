@@ -84,7 +84,9 @@ export default (props) => {
           <Switch>
             <Route exact path="/" component={() => <DummyView />} />
             <Route exact path="/planets/:paramId" component={() => <DummyView />} />
-            <Route exact path="/dashboard*" component={() => <Home />} />
+            <Route exact path="/dashboard" component={() => <Home />} />
+            <Route exact path="/dashboard/profile/b1fccc74-1b3b-4035-9644-2494f4f742b7" component={() => <Home />} />
+            <Route exact path="/dashboard/main*" component={() => <Home />} />
             <PrivateRouteConnected exact path="/hidden-route" component={() => <DummyView />} />
             <Route component={() => <NotFound />} />
           </Switch>
